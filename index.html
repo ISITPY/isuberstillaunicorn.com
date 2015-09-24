@@ -2,36 +2,45 @@
   <style>
     body {
       font-family: 'Helvetica', sans-serif;
-      background-color: purple;
+      background-color: #8e44ad;
       color: white;
       height: 100%;
       width: 100%;
       margin: 0;
       padding: 0x;
     }
+    p {
+      text-align: center;
+      width: 100%;
+    }
+    .centered h1 {
+      display: table-cell; 
+      vertical-align: middle;
+    }
     .centered {
       text-align: center;
-      translate: transformY(50%);
-      top: 50%;
+      height: 75%; 
+      display: table;
+      width: 100%;
     }
     h1 {
       margin: 0;
       padding: 0;
-      font-size: 72px;
+      font-size: 155px;
       color: white;
-      position: absolute;
     }
     p.small {
       bottom: 0px;
       position: absolute;
+      font-size: 12px;
     }
     a {
       text-decoration: none;
     }
   </style>
   <body>
+    <p>is uber still a unicorn?</p>
     <div class="centered">
-      <p>is uber still a unicorn?</p>
       <h1>yes</h1>
     </div>
     <p class="small"><a href="http://fortune.com/unicorns/">whats a unicorn?</a>
